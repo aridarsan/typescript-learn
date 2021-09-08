@@ -1,4 +1,5 @@
 console.log("Ini types dasar")
+//tipe data di typescript statis sehingga jika sudah di definisikan sebagai suatu tipe data tertentu maka tidak bisa diganti oleh tipe data lain kecuali menggunakan Any
 
 //stirng
 let nama : string= "Ari Darsan"

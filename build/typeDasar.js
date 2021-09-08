@@ -1,5 +1,6 @@
 "use strict";
 console.log("Ini types dasar");
+//tipe data di typescript statis sehingga jika sudah di definisikan sebagai suatu tipe data tertentu maka tidak bisa diganti oleh tipe data lain kecuali menggunakan Any
 //stirng
 var nama = "Ari Darsan";
 nama = "ari";
@@ -13,3 +14,8 @@ isMaried = true;
 var heroes = "Iron man";
 heroes = 45;
 //Union type
+7878788;
+098888;
+//gabungan dari tipe data menggunakan atau (||)
+var phone;
+phone = 098;

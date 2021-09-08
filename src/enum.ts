@@ -2,7 +2,7 @@
 
 //1 numerik enum
 enum Month {
-  JAN=1,//bis diganti index nya
+  JAN=1,//bisa diganti index nya
   FEB=34,
   MAR,
   APR,
@@ -10,7 +10,7 @@ enum Month {
 }
 
 console.log(Month)
-console.log(Month.MAY)
+console.log(Month.MAY)//rreturn index dari obejct
 
 //2 string enum tidak bisa menambahkan tipe data yang berbeda
 enum Day {
@@ -21,5 +21,5 @@ enum Day {
   Fri = "Friday"
 }
 
-console.log(Day)
+console.log(Day)//object ditambah index obeject nya
 console.log(Day.Fri)
