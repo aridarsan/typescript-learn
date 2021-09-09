@@ -37,9 +37,17 @@ const fullName = (first: string, last: string = "Darsan"): string => {
   return first + " " + last
 }
 
-//last nya ga di isi, namun me retutn Ari Darsa
+//last nya ga di isi, namun mereturn Ari Darsan
 console.log(fullName("Ari"))
 
 //return Ari Jarwo karena last nya di definisikan kembali
-console.log(fullName("Ari", "Jarwo"))
+console.log(fullName("Ari", "Jarw"))
+
+//optional parameter = type yang diberikan hanya pada saat diperlukan saja, jika tidak diisi value maka akan undifined
+const address = (val1:string, val2?: string) :string =>{
+  return val1 + " " + val2
+}
+
+console.log(address("papayan", "rancasari"))
+console.log(address("papayan"))
 

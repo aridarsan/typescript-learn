@@ -10,7 +10,7 @@ var Month;
     Month[Month["MAY"] = 37] = "MAY";
 })(Month || (Month = {}));
 console.log(Month);
-console.log(Month.MAY);
+console.log(Month.MAY); //rreturn index dari obejct
 //2 string enum tidak bisa menambahkan tipe data yang berbeda
 var Day;
 (function (Day) {
@@ -20,5 +20,5 @@ var Day;
     Day["Tue"] = "Tuesday";
     Day["Fri"] = "Friday";
 })(Day || (Day = {}));
-console.log(Day);
+console.log(Day); //object ditambah index obeject nya
 console.log(Day.Fri);
